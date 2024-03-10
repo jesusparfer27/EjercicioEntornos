@@ -1,0 +1,108 @@
+.reply-container {
+    width: calc(900px);
+    height: calc(500px);
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.button-cancel-header {
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+}
+
+.button-icon-header {
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+}
+
+.header-reply {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.cancel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: steelblue;
+    font-weight: 300;
+}
+
+.reply {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.destination-group {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.destination-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: white;
+}
+
+.destination-adress {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon-destination {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.choose-adress {
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    
+}
+
+.recently-adresses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.remitent-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: white;
+}
+
+.message-text-area {
+    border: 0px;
+    width: 100%;
+    height: auto;
+    font-family: sans-serif;
+    padding-top: 25px;
+    padding-left: 50px;
+    font-size: 16px;
+}

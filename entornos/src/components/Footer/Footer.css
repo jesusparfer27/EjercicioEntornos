@@ -1,0 +1,65 @@
+.icon-saved {
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    
+}
+
+.icons-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+
+.button-saved-logo {
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    
+}
+
+.span-material-saved {
+    color: white;
+}
+
+.icon-saved {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.email-count {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-unread {
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.button-unread-logo {
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+}
+ 
+.span-material-unread{
+    color: steelblue;
+}
+
+.material-symbols-outlined span{
+    width: 50px;
+    height: 50px;
+}

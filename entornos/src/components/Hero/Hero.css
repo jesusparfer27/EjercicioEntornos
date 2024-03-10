@@ -1,0 +1,23 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tittle-hero {
+    margin-left: 10px;
+}
+
+.subtittle-hero {
+    color: grey;
+    margin-left: 10px;
+}
+
+.image-hero {
+    width: 100px;
+    height: 100px;
+}
+
+.display-menu-hero {
+    border-radius: 70px;
+    border: 0px;
+}

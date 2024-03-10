@@ -1,0 +1,101 @@
+.content-messages {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.message-block {
+    background-color: white;
+    width: 900px;
+    height: 550px;
+    border-radius: 15px;
+    box-shadow:3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+}
+
+.buttons-message {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+    align-items: flex-end;
+}
+
+.button-message {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-messages-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.button-message span {
+    width: 100px;
+    height: 100px;
+
+}
+
+.icon-message-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sent-data-block {
+    margin-right: 50px;
+}
+
+.tittle-message-container {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.initial-name-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 50px;
+   
+}
+
+.circle-icon-name {
+    width: 30px;
+    height: 30px;
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.block-message {
+    height: 280px;
+
+}
+
+.message {
+    margin: 50px 50px 0px 50px;
+}
+
+.initial-name-icon-span {
+    color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
